@@ -14,15 +14,14 @@ Zhou Zhou (JoJo)
 
 ## Schedule:
 
-Week 1 - [Intro to Javascript](https://github.com/ZhouProject/UoR-Web-Design-2/blob/466b6032a153d6c84d6de9c04d8ec22777c36c36/week_1.pdf)
-
+Week 1 - Intro to Javascript
 - How JavaScript works
 - Setting up our code-editor
 - Understanding variables and data types
 - Writing JS functions
 - Working with conditionals and loops
 
-Week 2 - [Interactive Javascript](https://github.com/ZhouProject/UoR-Web-Design-2/blob/80f136233882f4f122887ab79992e851e936a387/week_2.pdf)
+Week 2 - Interactive Javascript
 
 - Using DOM trees and DOM manipulation methods with Javascript
 - building web pages and create rich, interactive experiences for the web
