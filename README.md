@@ -85,7 +85,7 @@ Week 12 - Pitch Presentations
 
 
 # Assessment
-Assessment is by creative project (70%), and completion of in-class assignments (30%).
+Assessment is by website project (80%), and pitch presentation (20%).
 
 ## Useful resources
 
