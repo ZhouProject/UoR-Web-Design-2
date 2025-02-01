@@ -50,7 +50,7 @@ Week 5 - Working with Data
 
 Week 6 - Employability Week
 
-- Project support
+- 
 
 Week 7 - UX Research and Responsible Design
 
