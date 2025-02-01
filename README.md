@@ -22,7 +22,7 @@ Week 1 - [Intro to Javascript](https://github.com/ZhouProject/UoR-Web-Design-2/b
 - Writing JS functions
 - Working with conditionals and loops
 
-Week 2 - Interactive Javascript
+Week 2 - [Interactive Javascript](https://github.com/ZhouProject/UoR-Web-Design-2/blob/80f136233882f4f122887ab79992e851e936a387/week_2.pdf)
 
 - Using DOM trees and DOM manipulation methods with Javascript
 - building web pages and create rich, interactive experiences for the web
