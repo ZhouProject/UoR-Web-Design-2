@@ -14,7 +14,7 @@ Zhou Zhou (JoJo)
 
 ## Schedule:
 
-Week 1 - Intro to Javascript
+Week 1 - [Intro to Javascript](https://github.com/ZhouProject/UoR-Web-Design-2/blob/466b6032a153d6c84d6de9c04d8ec22777c36c36/week_1.pdf)
 
 - How JavaScript works
 - Setting up our code-editor
