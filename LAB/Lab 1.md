@@ -1,4 +1,6 @@
-You can link Javascript file to HTML using ```<script src="script.js"></script>``` at the end of body part
+## You can link Javascript file to HTML using ```<script src="script.js"></script>``` in ```<body></body>``` session
+- Always link your JS at the end of body part
+- So HTML code will be loaded before Javascript code
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -17,6 +19,10 @@ You can link Javascript file to HTML using ```<script src="script.js"></script>`
 </body>
 </html>
 ```
+
+## Define a function that takes two integers, and a maths operation as an input, and returns the result as a string Eg. ```myFunction(8, 5, “+”) = "The result is 13"```
+- More info about ```switch``` statement: https://www.w3schools.com/js/js_switch.asp
+- ```${result}``` means ```result``` should be treated as a variable instead of a string (work with ```''``` indead of ```""```)
 
 ```javascript
 function myFunction(num1, num2, operation) {
@@ -47,8 +53,14 @@ function myFunction(num1, num2, operation) {
 }
 
 console.log(myFunction(8, 5, "+"));
+```
 
+## Define a function that takes as an array of integers as input and returns a new array with the squared value of each integer (using both ```for``` loop and ```.forEach``` method)
 
+- In this example, we are creating new arrays to store the result without changing the original array
+- More about ```.foreach()```: https://www.w3schools.com/jsref/jsref_forEach.asp
+- More about ```ES6 arrow function```: https://www.w3schools.com/js/js_arrow_function.asp
+```javascript
 function squareArray(arr) {
     let squaredUsingForLoop = [];
     let squaredUsingForEach = [];
@@ -74,7 +86,10 @@ function squareArray(arr) {
     };
     
 }
+```
 
+- This example overrides the input array with the result
+```javascript
 // Override the original array
 function square(numbers){
     numbers.forEach(myFunction);
@@ -84,20 +99,10 @@ function square(numbers){
     return numbers;
 }
 
+// Test
 const numbers = [1, 2, 3, 4, 5];
 console.log(squareArray(numbers));
 console.log(square(numbers));
-
-
-
-document.getElementById("mybutton").addEventListener("mouseover", changecolor);
-function changecolor(){
-    document.getElementById("mybutton").style.color = "blue";
-}
-document.getElementById("mybutton").addEventListener("mouseout", (e) => {document.getElementById("mybutton").style.color = "pink";});
-
-
-const butoon = document.getElementById("mybutton");
 ```
 
 
