@@ -1,5 +1,6 @@
 ## DOM Manipulation
-- We use [DOM methods](https://www.w3schools.com/js/js_htmldom_methods.asp) to add interactivity to your web page
+We use [DOM methods](https://www.w3schools.com/js/js_htmldom_methods.asp) to add interactivity to your web page
+
 ## [Node Tree](https://www.w3schools.com/js/js_htmldom_navigation.asp)
 - Node tree represents the HTML structure
 - Everything in a HTML document is a node (text inside HTML elements are text nodes!)
@@ -38,8 +39,8 @@
   myButton.style.padding = "10px";
   ```
 
-## Operations and Methods
-From here, we will learn approaches to manipulate the DOM elements
+## Methods
+Here we will learn approaches to manipulating the DOM elements
 ### ```classList``` Property
 - ```classList``` property returns a list of all the CSS classes an element contains
 - we can use it to change the class of a node (HTML element)
@@ -58,3 +59,60 @@ From here, we will learn approaches to manipulate the DOM elements
   container.innerText = "A sample text string";
   container.innerHTML = "<h1>Adding Heading with JS</h1>";
   ```
+
+### Updating attributes
+- The same way as properties using ```element.attribute```
+  ```javascript
+  <img src="cat.jpg" id="my-image" />
+  const myImage = document.querySelector("#my-image");
+  myImage.src = "penguin.jpg"; // updates the src value of the image
+  ```
+
+### [Creating new DOM Elements](https://www.w3schools.com/js/js_htmldom_nodes.asp)
+- The basic idea is
+  - Create the new element (node) using ```document.createElement()```
+  - Select an exsiting node which would be the relative position to your new element
+  - Put the new element into the node tree using these methods
+    - ```insertBefore()```
+    - ```append()```
+    - ```appendChild()```
+    - There are [more methods](https://www.w3schools.com/jsrEF/dom_obj_all.asp)！
+   
+## [JavaScript Events](https://www.w3schools.com/js/js_htmldom_events.asp)
+- A JavaScript can be executed when an event occurs, like when a user clicks on an HTML element.
+  ```html
+  <body>
+
+  <h1 onclick="changeText(this)">Click on this text!</h1>
+
+  <script>
+  function changeText(id) {
+    id.innerHTML = "Ooops!";
+  }
+  </script>
+
+  </body>
+  ```
+
+- Use [Event Listener](https://www.w3schools.com/js/js_htmldom_eventlistener.asp)
+  ```javascript
+  element.addEventListener("click", myFunction);
+
+  function myFunction() {
+    alert ("Hello World!");
+  }
+  ```  
+
+## ES6 Arrow Function
+https://www.w3schools.com/js/js_arrow_function.asp
+
+
+
+
+
+
+
+
+
+
+
