@@ -103,6 +103,9 @@ Here we will learn approaches to manipulating the DOM elements
   }
   ```  
 
+## Callback Function
+https://www.w3schools.com/js/js_callback.asp
+
 ## ES6 Arrow Function
 https://www.w3schools.com/js/js_arrow_function.asp
 
