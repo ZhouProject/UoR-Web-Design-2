@@ -13,11 +13,11 @@ Zhou Zhou (JoJo)
 
 ## [Accessment](https://github.com/ZhouProject/UoR-Web-Design-2/blob/99a34413c072becca78e0e3e600024ff52141f1f/Assessment%20Details.md)
 
-- Website Project 80%
-  - by 10 April 23:59
-  - Git Repository submitted via Moodle           
-- Presentation 20%
-  - In-class on	07 April
+### Website Project (80%)
+- by 10 April 23:59
+- Git Repository submitted via Moodle           
+### Presentation (20%)
+- In-class on	07 April
 
 
 ## Schedule:
