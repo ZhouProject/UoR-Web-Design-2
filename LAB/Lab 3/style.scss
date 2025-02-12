@@ -1,0 +1,94 @@
+// link other SASS files
+@import "variables";
+@import "mixin";
+
+
+
+
+// Flex navigation bar
+#container {
+    @include container;
+}
+
+.mainbox {
+    @include mainbox;
+}
+
+
+.sidebox {
+    @include sidebox;
+    &:hover{
+        color:red;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+div {
+    p {
+        color:bisque;
+    }
+    h1 {
+        color:aqua;
+    }
+}
+
+
+p {
+    color:$myColor;
+
+    &:hover{
+        display:none;
+    }
+}
+
+
+/* @include uses the style information stored in a @mixin */
+div {
+    @include styleCombination;
+}
+
+
+/* @extend - use style of one selector for another seletor */
+#demo1 {
+    color:invert(#ffff66);
+    background-color: rgba(95, 158, 160, 0.45);
+    font-size: 100px;
+}
+
+#demo2 {
+    @extend #demo1;
+
+}
+
+
+// Nesting rules
+nav {
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    li {
+      display: inline-block;
+    }
+    a {
+      display: block;
+      padding: 6px 12px;
+      text-decoration: none;
+    }
+}
+
+
+
+
