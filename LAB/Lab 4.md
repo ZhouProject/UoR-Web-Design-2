@@ -1,6 +1,6 @@
 ## ReacJS
 
-### [Installation]([https://react.dev/learn/start-a-new-react-project](https://code.visualstudio.com/docs/nodejs/reactjs-tutorial))
+### [Installation](https://code.visualstudio.com/docs/nodejs/reactjs-tutorial)
 - You'll need [Node.js](https://nodejs.org/) JavaScript runtime and [npm](https://www.npmjs.com/) (Node.js package manager) installed.
   - Tip: To test that you have Node.js and npm correctly installed on your machine, you can type ```node --version``` and ```npm --version``` in a terminal or command prompt.
 - Create a new folder, then open it with Terminal
