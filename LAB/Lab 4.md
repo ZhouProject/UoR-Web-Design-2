@@ -21,5 +21,30 @@
   code .
   ```
 
+## JSX
+- stands for JavaScript XML, allowing us to write HTML in React.
+- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
