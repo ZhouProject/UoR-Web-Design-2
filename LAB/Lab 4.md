@@ -22,9 +22,125 @@
   ```
 
 ## JSX
-- stands for JavaScript XML, allowing us to write HTML in React.
-- 
+- stands for JavaScript XML, allowing us to write HTML in React and place them in DOM without any ```createElement()``` and/or ```appendChild()``` methods.
+  ```javascript
+  const myElement = <h1>I Love JSX!</h1>;
 
+  const root = ReactDOM.createRoot(document.getElementById('root'));
+  root.render(myElement);
+  ```
+- With JSX you can write expressions inside curly braces ```{ }```.
+  ```javascript
+  const myElement = <h1>React is {5 + 5} times better with JSX</h1>;
+  ```
+- Use braces ```()``` for multiple line of code.
+- The HTML code must be wrapped in ONE top level element.
+  ```javascript
+  const myElement = (
+  <>
+    <p>I am a paragraph.</p>
+    <p>I am a paragraph too.</p>
+  </>
+  );
+  ```
+- Elements Must be Closed
+  ```javascript
+  const myElement = <input type="text" />;
+  ```
+- Use ```className``` for attribute class
+  ```javascript
+  const myElement = <h1 className="myclass">Hello World</h1>;
+  ```
+
+## React Components
+- Components are like functions that return HTML elements.
+- Component's name MUST start with an upper case letter.
+  ```javascript
+  function Car() {
+    return <h2>I am a Car!</h2>;
+  }
+
+  function Garage() {
+    return (
+      <>
+        <h1>Who lives in my Garage?</h1>
+        <Car />
+      </>
+    );
+  }
+
+  const root = ReactDOM.createRoot(document.getElementById('root'));
+  root.render(<Garage />);
+  ```
+- We can export components and access them in other files.
+- Export
+  ```javascript
+  function Car() {
+    return <h2>Hi, I am a Car!</h2>;
+  }
+
+  export default Car;
+  ```
+- Import
+  ```javascript
+  import React from 'react';
+  import ReactDOM from 'react-dom/client';
+  import Car from './Car.js';
+
+  const root = ReactDOM.createRoot(document.getElementById('root'));
+  root.render(<Car />);
+  ```
+
+## [React Props (Properties)](https://www.w3schools.com/REACT/react_props.asp)
+- Props are arguments passed into React components.
+- Props are passed to components via HTML attributes.
+  ```javascript
+  const myElement = <Car brand="Ford" />;
+  
+  function Car(props) {
+    return <h2>I am a { props.brand }!</h2>;
+  }
+  ```
+- Props are also how you pass data from one component to another, as parameters.
+  ```javascript
+  function Car(props) {
+  return <h2>I am a { props.brand }!</h2>;
+  }
+
+  function Garage() {
+    return (
+      <>
+        <h1>Who lives in my garage?</h1>
+        <Car brand="Ford" />
+      </>
+    );
+  }
+
+  const root = ReactDOM.createRoot(document.getElementById('root'));
+  root.render(<Garage />);
+  ```
+
+## [React Events](https://www.w3schools.com/REACT/react_events.asp)
+- Just like HTML DOM events, React can perform actions based on user events.
+- React has the same events as HTML: click, change, mouseover etc.
+- React events are written in camelCase syntax: ```onClick``` instead of ```onclick```.
+- React event handlers are written inside curly braces: ```onClick={shoot}```  instead of ```onclick="shoot()"```.
+- We'll be using [Arrow Function](https://www.w3schools.com/REACT/react_es6_arrow.asp) to define functions inside React Components
+  ```javascript
+  function Football() {
+    const shoot = () => {
+      alert("Great Shot!");
+    }
+
+    return (
+      <button onClick={shoot}>Take the shot!</button>
+    );
+  }
+
+  const root = ReactDOM.createRoot(document.getElementById('root'));
+  root.render(<Football />);
+  ```
+- 
 
 
 
