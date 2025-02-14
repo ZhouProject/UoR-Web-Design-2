@@ -8,7 +8,7 @@
   
   ```npx create-react-app my-app```
 
-- Run our React application by navigating to the new folder and typing npm start to start the web server and open the application in a browser:
+- Run our React application by navigating to the new folder and typing npm start to start the web server and open the application in a browser: (For Mac users, you might need to open it manually in VS Code)
   ```
   cd my-app
   npm start
