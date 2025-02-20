@@ -142,8 +142,53 @@
   ```
 
 ## React Hooks
-- 
+- Hooks are utility functions that are part of React
+- Hooks exposes APIs to local state, lifecycle events, reference to JSX elements etc
+- Hooks follow a naming pattern. All hooks are prefixed with `use{hook_name}`. E.g. useState, useRef, useEffect etc
+- At the top of your component, import the useState Hook.
+  ```javascript
+  import { useState } from "react";
+  ```
+- We initialize our state by calling useState in our function component.
+- `useState` accepts an initial state and returns two values:
+  - The current state.
+  - A function that updates the state.
+  ```javascript
+  import { useState } from "react";
+  import ReactDOM from "react-dom/client";
 
+  function FavoriteColor() {
+    const [color, setColor] = useState("red");
+
+    return <h1>My favorite color is {color}!</h1>
+  }
+
+  const root = ReactDOM.createRoot(document.getElementById('root'));
+  root.render(<FavoriteColor />);
+  ```
+- To update our state, we use our state updater function.
+- We should never directly update state. Ex: color = "red" is not allowed.
+  ```javascript
+  import { useState } from "react";
+  import ReactDOM from "react-dom/client";
+
+  function FavoriteColor() {
+    const [color, setColor] = useState("red");
+
+    return (
+      <>
+        <h1>My favorite color is {color}!</h1>
+        <button
+          type="button"
+          onClick={() => setColor("blue")}
+        >Blue</button>
+      </>
+    )
+  }
+
+  const root = ReactDOM.createRoot(document.getElementById('root'));
+  root.render(<FavoriteColor />);
+  ```
 
 
 
