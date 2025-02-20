@@ -167,7 +167,7 @@
   root.render(<FavoriteColor />);
   ```
 - To update our state, we use our state updater function.
-- We should never directly update state. Ex: color = "red" is not allowed.
+- We should never directly update state. Ex: ```color = "red"``` is not allowed.
   ```javascript
   import { useState } from "react";
   import ReactDOM from "react-dom/client";
