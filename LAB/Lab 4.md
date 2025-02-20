@@ -141,7 +141,7 @@
   root.render(<Football />);
   ```
 
-## React Hooks
+## [React Hooks](https://www.w3schools.com/react/react_usestate.asp)
 - Hooks are utility functions that are part of React
 - Hooks exposes APIs to local state, lifecycle events, reference to JSX elements etc
 - Hooks follow a naming pattern. All hooks are prefixed with `use{hook_name}`. E.g. useState, useRef, useEffect etc
