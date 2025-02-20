@@ -52,20 +52,23 @@ Week 4 - Intro to Functional Programming with ReactJS
 - npm and package management, including how to install and manage packages in your project
 - Working with the terminal and how it can be used to perform development tasks
 
-Week 5 - Working with Data
 
-- Exploring the basics of data mapping using array maps, how to implement component lifecycles, and how to work with promises and async-await for handling asynchronous data requests.
-- Using the useEffect hook for managing state and performing side effects
-- Implement chart libraries in ReactJS components
+Week 5 - UX Research and Responsible Design
+
+- Principles of user-centered design
+- Responsible design practices, such as designing for privacy and inclusivity, as well as ethical considerations in UX design
 
 Week 6 - Employability Week
 
 - 
 
-Week 7 - UX Research and Responsible Design
+Week 7 - Working with Data
 
-- Principles of user-centered design
-- Responsible design practices, such as designing for privacy and inclusivity, as well as ethical considerations in UX design
+- Exploring the basics of data mapping using array maps, how to implement component lifecycles, and how to work with promises and async-await for handling asynchronous data requests.
+- Using the useEffect hook for managing state and performing side effects
+- Implement chart libraries in ReactJS components
+
+
 
 Week 8 - Visual Design Practices and Design Systems
 
