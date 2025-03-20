@@ -11,7 +11,7 @@ Zhou Zhou (JoJo)
 
 - The course is divided into research block and programming block that focus on specific areas, exploring them in ways that relate to specific languages, platforms, frameworks and approaches. We will move fast, so you will need your wits about you. You are encouraged to take written notes, especially when you are working on your own to review material covered in class.
 
-## [Accessment](https://github.com/ZhouProject/UoR-Web-Design-2/blob/99a34413c072becca78e0e3e600024ff52141f1f/Assessment%20Details.md)
+## [Accessment]([https://github.com/ZhouProject/UoR-Web-Design-2/blob/99a34413c072becca78e0e3e600024ff52141f1f/Assessment%20Details.md](https://github.com/ZhouProject/UoR-Web-Design-2/blob/aa316356fd6d35c7eb81f205fd5adf13d66f06fd/Assessment%20Details.md))
 
 ### Website Project (80%)
 - by 10 April 23:59
