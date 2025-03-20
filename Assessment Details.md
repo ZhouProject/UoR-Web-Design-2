@@ -1,34 +1,112 @@
-# 1. Project Presentations - 20%
-Students to present their project ideas demonstrating a good understanding of topics relating to research, design, and execution. 
+# Web Design 2 - Assessment Brief
 
-### The presentation must include
+## Learning Outcomes
+By completing this coursework, students will be able to:
+- Apply research, design, and development principles to create a fully functional interactive website.
+- Demonstrate a strong understanding of UX/UI, accessibility, and ethical considerations in web development.
+- Implement JavaScript, ReactJS, and external APIs effectively.
+- Utilize responsive design and component-based architecture for a seamless user experience.
+- Optimize website performance, security, and GDPR compliance.
 
-- Website Pitch: Use the presentation to "pitch" their website, showcasing its features and highlighting how it meets the criteria for accessibility, ethics, and future developments.
-- Research Process: Discuss the research process that was undertaken to create their website. This can include wireframing, usability research, information architecture maps, and other techniques used to determine the user's needs and how to best meet them. Explain the methods used to gather information and how it influenced the design and functionality of the website. Showcasing the research process will demonstrate the students' attention to detail and ability to create a well-designed user-centered website.
-- Technical Implementation: Discuss the technical aspects of building their website, such as the development tools and platforms used, coding languages, and other technologies involved. Explain how they approached the technical challenges they encountered and how they overcame them.
-- Analytics: Describe what metrics and tools will be used to monitor and track user behaviour and discuss how this will improve data-driven decision making. Explain how user-privacy plays a role into implementing analytics on the website.
-- Ethical Responsibilities: Explain the ethical considerations that should be taken into account when creating a website, such as privacy, data protection, and intellectual property rights.
-- Accessibility: Discuss the importance of making websites accessible to all users, including those with disabilities, and the various techniques and tools that can be used to achieve this.
+## Assessment Weighting
+- **Project Presentation** - 20%
+- **Final Interactive Website** - 80%
 
-# 2. Final Project - 80%
-The goal of the project is to build an interactive website using JavaScript, showcasing their ability to apply the concepts and techniques learned in the class to create a functional and user-friendly website. This project will be evaluated based on design, functionality, code quality, and adherence to the requirements outlined in the brief. 
+## Maximum Mark
+100%
 
-### Brief
-- Build an interactive website using JavaScript, or any JS library/framework of your choice. 
+## Submission Details
+- Project should be submitted via **GitHub repository link**.
+- **README.md file (500 words)** with project description and citations.
+- **Live deployment URL** (via Netlify, Vercel, GitHub Pages, etc.).
+- **Video Screencast (2-5 min)** showcasing the project’s functionality.
+- **PDF document** with screenshots of key project features.
 
-- A landing page and at least three subpages linked via routing
-- Component-based project architecture
-- Fully responsive design
-- Global styling configuration
-- Shared state
-- Compliance with accessibility and GDPR guidelines
-- A form with input validation
-- Integration with an external API to fetch and display data, including:
-- At least one search filter, such as date range selection, search bar, category filters, or sorting
+## Word Limit
+500 words (README file)
 
-- A list of public APIs can be found here: https://github.com/public-apis/public-apis
-### Submission
+## Key Dates
+- **Presentation Deadline:** 11/04/2025  
+- **Final Website Submission:** 10/04/2025  
+- **Marks Released By:** 10/05/2025  
 
-Final project to be submitted as a link to the project Git repository, including a README.md file. The README should include your project description (~500 words), and a live deployment URL of the project, along with citations to any code used from external sources.
+---
 
-Important: Please make sure to use proper referencing when using code that is not your own
+## Assessment Introduction
+This coursework assesses students' ability to design, develop, and present an interactive website using JavaScript and ReactJS. The project must demonstrate:
+- Technical execution
+- UX/UI design principles
+- Accessibility and ethical considerations
+- Data handling and privacy compliance
+
+Students will submit a **research-informed web project**, including a pitch presentation and a fully functional, deployed website.
+
+---
+
+## Task 1: Project Presentation (20%)
+Students will present their website concept, demonstrating research, design process, and development plan.
+
+### Presentation Requirements:
+- **Format:** Google Slides, PowerPoint, or PDF
+- **Duration:** 5-7 minutes
+- **Slides (10-15 total):**
+  1. **Title Slide**: Project name, student name, GitHub repository link
+  2. **Website Pitch**: Purpose, target audience, accessibility & ethics considerations
+  3. **Wireframing & UX Research**: Show wireframes & user journey insights
+  4. **Technical Stack**: Explain frameworks, tools, and libraries used
+  5. **Component Architecture**: Discuss modular approach and reusability
+  6. **Data Handling & API Usage**: Outline API integrations and data processing
+  7. **Performance Optimization**: Discuss speed, security, and SEO techniques
+  8. **Accessibility & Compliance**: Explain WCAG, GDPR measures
+  9. **Challenges & Learnings**: Key obstacles and how they were addressed
+  10. **Live Demo (if possible)**
+
+### Deliverable:
+- A **slide presentation** uploaded to GitHub (PDF format preferred).
+
+---
+
+## Task 2: Final Interactive Website (80%)
+Students will develop a fully functional web application using **ReactJS**.
+
+### Minimum Requirements:
+1. **Landing Page + 3 Subpages** (with routing using React Router)
+2. **Component-Based Architecture** (Reusable UI components)
+3. **Responsive Design** (Flexbox/Grid, mobile-first approach)
+4. **Global Styling Configuration** (CSS Modules, SCSS, TailwindCSS)
+5. **State Management** (Context API or Redux)
+6. **API Integration** (Fetch and display external data)
+7. **Search/Filter Functionality** (At least one)
+8. **Form with Input Validation** (User-friendly form with validation)
+9. **Performance Optimization** (Lighthouse audit & improvements)
+10. **Accessibility & GDPR Compliance** (Meets WCAG & data protection laws)
+
+### Deliverables:
+- **GitHub repository** with structured project files.
+- **README.md file** (500-word project description).
+- **Live deployment URL**.
+- **Video Screencast (2-5 min)** showcasing the project’s functionality.
+- **PDF document** with screenshots of key project features.
+
+---
+
+## Additional Information
+- Late submissions will **incur a penalty** unless prior approval is granted.
+- Students **must reference all external code sources properly**.
+- **Plagiarism and uncredited code copying** will result in academic penalties.
+- The project **must be built using JavaScript, ReactJS, and associated libraries** taught in the module.
+
+---
+
+## Assessment Criteria
+| Criterion                  | Weighting |
+|---------------------------|-----------|
+| Project Presentation      | 20%       |
+| Website Functionality     | 25%       |
+| UX/UI & Accessibility     | 15%       |
+| Technical Execution      | 20%       |
+| Code Quality & Structure | 10%       |
+| Documentation & Compliance | 10%       |
+
+
+
