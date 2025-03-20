@@ -17,7 +17,7 @@ Zhou Zhou (JoJo)
 - by 10 April 23:59
 - Git Repository submitted via Moodle           
 ### Presentation (20%)
-- In-class on	07 April
+- In-class on	11 April
 
 
 ## Schedule:
