@@ -126,6 +126,8 @@ const Login = () => {
     .then(data => console.log(data));
   ```
 
+### Loading the `.env` File
+- After adding the .env file, restart the React development server: `npm start`
 
 
 
