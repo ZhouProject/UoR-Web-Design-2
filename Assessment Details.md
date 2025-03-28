@@ -76,6 +76,7 @@ Students will develop a fully functional web application using **ReactJS**.
 4. **Global Styling Configuration** (CSS Modules, SCSS, TailwindCSS)
 5. **State Management** (Context API or Redux)
 6. **API Integration** (Fetch and display external data)
+   - [List of Public APIs](https://github.com/public-apis/public-apis?tab=readme-ov-file)
 7. **Search/Filter Functionality** (At least one)
 8. **Form with Input Validation** (User-friendly form with validation)
 9. **Performance Optimization** (Lighthouse audit & improvements)
