@@ -2,7 +2,10 @@
 
 Zhou Zhou (JoJo)
 
-[Online Meeting (only for screen share)](https://teams.microsoft.com/l/meetup-join/19%3ameeting_YjU0MWRhNWYtOTcxNS00YzNmLWE2OTUtNGFjNmNkYmRmOGU2%40thread.v2/0?context=%7b%22Tid%22%3a%225fe65063-5c37-47fb-b4cc-e42659e607ed%22%2c%22Oid%22%3a%22d392e667-97be-44d6-adc8-4f0c9b500ca6%22%7d)
+## Useful resources
+
+- [Coding Tutorial](https://www.w3schools.com/)
+- [List of Public APIs](https://github.com/public-apis/public-apis?tab=readme-ov-file)
 
 
 ## Introduction
@@ -98,10 +101,6 @@ Week 12 - Pitch Presentations
 # Assessment
 Assessment is by website project (80%), and pitch presentation (20%).
 
-## Useful resources
-
-- Coding Tutorial
-https://www.w3schools.com/
 
 
 
