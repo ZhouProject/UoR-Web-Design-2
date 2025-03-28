@@ -108,5 +108,10 @@ Students will develop a fully functional web application using **ReactJS**.
 | Code Quality & Structure | 10%       |
 | Documentation & Compliance | 10%       |
 
+---
+
+## List of Public APIs
+https://github.com/public-apis/public-apis?tab=readme-ov-file
+
 
 
