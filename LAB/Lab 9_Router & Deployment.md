@@ -13,6 +13,10 @@
 5. History Management
    - Uses the browser’s history API (pushState, replaceState) to manage navigation.
 
+### Add React Router
+- `npm i -D react-router-dom`
+
+
 ### Import BrowserRouter & Define Routes
 ```javascript
 import React from "react";
