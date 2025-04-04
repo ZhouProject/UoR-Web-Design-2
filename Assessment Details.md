@@ -20,7 +20,7 @@ By completing this coursework, students will be able to:
 - **README.md file (500 words)** with project description and citations.
 - **Live deployment URL** (via Netlify, Vercel, GitHub Pages, etc.).
 - **Video Screencast (2-5 min)** showcasing the project’s functionality.
-- **PDF document** with screenshots of key project features.
+- **Presentation Slides** with screenshots of key project features.
 
 ## Word Limit
 500 words (README file)
@@ -87,7 +87,6 @@ Students will develop a fully functional web application using **ReactJS**.
 - **README.md file** (500-word project description).
 - **Live deployment URL**.
 - **Video Screencast (2-5 min)** showcasing the project’s functionality.
-- **PDF document** with screenshots of key project features.
 
 ---
 
